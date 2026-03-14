@@ -23,7 +23,7 @@
                 </div>
             </div>
             <div class="border-t border-gray-700 mt-8 pt-8 text-center">
-                <p>&copy; 2023 Bloa Language. All rights reserved.</p>
+                <p>&copy; <?php echo date('Y'); ?> Bloa Language. All rights reserved.</p>
             </div>
         </div>
     </footer>
