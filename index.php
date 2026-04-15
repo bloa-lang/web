@@ -1,94 +1,111 @@
 <?php $title = 'Home - Bloa Programming Language'; include 'header.php'; ?>
 
-<section class="gradient-primary text-white py-32 relative overflow-hidden">
-    <div class="absolute inset-0 opacity-10">
-        <div class="absolute top-0 left-10 w-80 h-80 bg-white rounded-full mix-blend-multiply filter blur-3xl"></div>
-        <div class="absolute top-0 right-10 w-80 h-80 bg-white rounded-full mix-blend-multiply filter blur-3xl animation-delay-2000"></div>
+<section class="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0 opacity-20">
+        <div class="absolute top-0 left-10 w-80 h-80 bg-cyan-500 rounded-full mix-blend-multiply filter blur-3xl"></div>
+        <div class="absolute top-0 right-10 w-80 h-80 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl animation-delay-2000"></div>
+        <div class="absolute bottom-0 left-1/2 w-80 h-80 bg-indigo-500 rounded-full mix-blend-multiply filter blur-3xl animation-delay-4000"></div>
     </div>
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-        <h1 class="text-6xl md:text-7xl font-bold mb-6 leading-tight">Welcome to <span class="text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-200">Bloa</span></h1>
-        <p class="text-xl md:text-2xl mb-10 text-gray-100 max-w-3xl mx-auto leading-relaxed">A minimalist scripting language designed for simplicity, readability, and powerful performance.</p>
-        <div class="flex flex-wrap gap-4 justify-center">
-            <a href="docs.php" class="bg-white text-purple-600 px-8 py-4 rounded-lg font-bold hover:shadow-2xl hover:scale-105 transition transform duration-300">Get Started</a>
-            <a href="examples.php" class="border-2 border-white text-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-purple-600 transition duration-300">View Examples</a>
-            <a href="https://github.com/bloa-lang/bloa-src" target="_blank" class="bg-white bg-opacity-20 text-white px-8 py-4 rounded-lg font-bold hover:bg-opacity-40 transition duration-300 backdrop-blur-sm">GitHub</a>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 py-32">
+        <h1 class="text-6xl md:text-7xl font-bold mb-8 leading-tight text-white">Welcome to <span class="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">Bloa</span></h1>
+        <p class="text-xl md:text-2xl mb-10 text-gray-400 max-w-3xl mx-auto leading-relaxed">A minimalist scripting language designed for simplicity, readability, and powerful performance. Write more with less code.</p>
+        <div class="flex flex-wrap gap-4 justify-center mb-16">
+            <a href="docs.php" class="bg-cyan-500 text-black px-8 py-4 rounded-lg font-bold hover:bg-cyan-400 hover:shadow-2xl hover:shadow-cyan-500/50 hover:scale-105 transition transform duration-300">Get Started</a>
+            <a href="examples.php" class="border-2 border-cyan-500 text-cyan-400 px-8 py-4 rounded-lg font-bold hover:bg-cyan-500 hover:text-black transition duration-300">View Examples</a>
+            <a href="https://github.com/bloa-lang/bloa-src" target="_blank" class="bg-gray-800 hover:bg-gray-700 text-white px-8 py-4 rounded-lg font-bold transition duration-300 border border-gray-700">
+                <i class="fab fa-github mr-2"></i>GitHub
+            </a>
         </div>
     </div>
 </section>
 
-<section class="py-20">
+<section class="py-24 relative z-10">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-16">
-            <h2 class="text-4xl md:text-5xl font-bold mb-4 gradient-text">Why Choose Bloa?</h2>
-            <p class="text-xl text-gray-600 max-w-2xl mx-auto">Experience the perfect balance of simplicity and power</p>
+        <div class="text-center mb-20">
+            <h2 class="text-4xl md:text-5xl font-bold mb-4 text-white">Why Choose Bloa?</h2>
+            <p class="text-xl text-gray-400 max-w-2xl mx-auto">Experience the perfect balance of simplicity and power</p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="card-hover bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-                <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center mb-6">
+            <div class="card-hover bg-gray-900 p-8 rounded-xl shadow-lg border border-gray-800">
+                <div class="w-16 h-16 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-lg flex items-center justify-center mb-6">
                     <i class="fas fa-code text-2xl text-white"></i>
                 </div>
-                <h3 class="text-xl font-bold mb-3">Simple Syntax</h3>
-                <p class="text-gray-600 leading-relaxed">Easy to learn and read, perfect for beginners and experts alike. Write more with less code.</p>
+                <h3 class="text-xl font-bold mb-3 text-white">Simple Syntax</h3>
+                <p class="text-gray-400 leading-relaxed">Easy to learn and read, perfect for beginners and experts alike. Write more with less code.</p>
             </div>
-            <div class="card-hover bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-                <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center mb-6">
+            <div class="card-hover bg-gray-900 p-8 rounded-xl shadow-lg border border-gray-800">
+                <div class="w-16 h-16 bg-gradient-to-br from-emerald-500 to-cyan-500 rounded-lg flex items-center justify-center mb-6">
                     <i class="fas fa-rocket text-2xl text-white"></i>
                 </div>
-                <h3 class="text-xl font-bold mb-3">Fast Execution</h3>
-                <p class="text-gray-600 leading-relaxed">Built with performance in mind, executes scripts quickly and efficiently with minimal overhead.</p>
+                <h3 class="text-xl font-bold mb-3 text-white">Fast Execution</h3>
+                <p class="text-gray-400 leading-relaxed">Built with performance in mind, executes scripts quickly and efficiently with minimal overhead.</p>
             </div>
-            <div class="card-hover bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-                <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center mb-6">
+            <div class="card-hover bg-gray-900 p-8 rounded-xl shadow-lg border border-gray-800">
+                <div class="w-16 h-16 bg-gradient-to-br from-indigo-500 to-blue-500 rounded-lg flex items-center justify-center mb-6">
                     <i class="fas fa-tools text-2xl text-white"></i>
                 </div>
-                <h3 class="text-xl font-bold mb-3">Rich Features</h3>
-                <p class="text-gray-600 leading-relaxed">Supports functions, classes, modules, and a comprehensive standard library for real-world applications.</p>
+                <h3 class="text-xl font-bold mb-3 text-white">Rich Features</h3>
+                <p class="text-gray-400 leading-relaxed">Supports functions, classes, modules, and a comprehensive standard library for real-world applications.</p>
             </div>
         </div>
     </div>
 </section>
 
-<section class="py-20 bg-gradient-to-br from-gray-50 to-gray-100">
+<section class="py-24 relative z-10 border-t border-gray-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-16">
-            <h2 class="text-4xl md:text-5xl font-bold mb-4 gradient-text">Quick Example</h2>
-            <p class="text-xl text-gray-600">See how simple Bloa code is</p>
+        <div class="text-center mb-20">
+            <h2 class="text-4xl md:text-5xl font-bold mb-4 text-white">Quick Example</h2>
+            <p class="text-xl text-gray-400">See how simple and elegant Bloa code is</p>
         </div>
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-            <div class="bg-white p-8 rounded-xl shadow-xl border border-gray-100">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div class="bg-gray-900 p-8 rounded-xl shadow-xl border border-gray-800">
                 <div class="flex items-center mb-4">
-                    <span class="text-sm font-semibold text-gray-500 uppercase">Code Example</span>
+                    <span class="text-sm font-semibold text-cyan-400 uppercase">Calculator Example</span>
                 </div>
-                <pre class="code text-sm bg-gray-900 text-gray-100 p-6 rounded-lg overflow-x-auto border border-gray-700 leading-relaxed"><code>class Calculator {
+                <pre class="code text-sm bg-black text-gray-100 p-6 rounded-lg overflow-x-auto border border-gray-700 leading-relaxed"><code>class Calculator {
   function add(self, a, b) {
     return a + b
+  }
+  
+  function multiply(self, a, b) {
+    return a * b
   }
 }
 
 calc = Calculator()
 result = calc.add(5, 3)
-say("Result: " + str(result))</code></pre>
+say("5 + 3 = " + str(result))
+
+product = calc.multiply(4, 7)
+say("4 * 7 = " + str(product))</code></pre>
             </div>
             <div class="space-y-6">
                 <div class="flex space-x-4">
-                    <i class="fas fa-check text-2xl text-green-500 flex-shrink-0 mt-1"></i>
+                    <i class="fas fa-check text-2xl text-cyan-400 flex-shrink-0 mt-1"></i>
                     <div>
-                        <h4 class="font-bold text-lg">Clean & Readable</h4>
-                        <p class="text-gray-600">Syntax that's easy to understand at first glance</p>
+                        <h4 class="font-bold text-lg text-white">Clean & Readable</h4>
+                        <p class="text-gray-400">Syntax that's easy to understand at first glance</p>
                     </div>
                 </div>
                 <div class="flex space-x-4">
-                    <i class="fas fa-check text-2xl text-green-500 flex-shrink-0 mt-1"></i>
+                    <i class="fas fa-check text-2xl text-cyan-400 flex-shrink-0 mt-1"></i>
                     <div>
-                        <h4 class="font-bold text-lg">Object-Oriented</h4>
-                        <p class="text-gray-600">Full support for classes, inheritance, and polymorphism</p>
+                        <h4 class="font-bold text-lg text-white">Object-Oriented</h4>
+                        <p class="text-gray-400">Full support for classes, inheritance, and polymorphism</p>
                     </div>
                 </div>
                 <div class="flex space-x-4">
-                    <i class="fas fa-check text-2xl text-green-500 flex-shrink-0 mt-1"></i>
+                    <i class="fas fa-check text-2xl text-cyan-400 flex-shrink-0 mt-1"></i>
                     <div>
-                        <h4 class="font-bold text-lg">Powerful</h4>
-                        <p class="text-gray-600">Rich standard library with everything you need</p>
+                        <h4 class="font-bold text-lg text-white">Powerful</h4>
+                        <p class="text-gray-400">Rich standard library with everything you need</p>
+                    </div>
+                </div>
+                <div class="flex space-x-4">
+                    <i class="fas fa-check text-2xl text-cyan-400 flex-shrink-0 mt-1"></i>
+                    <div>
+                        <h4 class="font-bold text-lg text-white">Performance</h4>
+                        <p class="text-gray-400">Optimized C++ interpreter for fast execution</p>
                     </div>
                 </div>
             </div>
@@ -96,8 +113,53 @@ say("Result: " + str(result))</code></pre>
     </div>
 </section>
 
-<section class="py-20">
+<section class="py-24 relative z-10">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-20">
+            <h2 class="text-4xl md:text-5xl font-bold mb-4 text-white">Featured Features</h2>
+            <p class="text-xl text-gray-400">Everything you need to build powerful applications</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-cyan-500 transition duration-300">
+                <i class="fas fa-list text-2xl text-cyan-400 mb-3"></i>
+                <h3 class="font-bold text-white mb-2">Lists & Arrays</h3>
+                <p class="text-gray-400 text-sm">Native support for collections and iteration</p>
+            </div>
+            <div class="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-cyan-500 transition duration-300">
+                <i class="fas fa-repeat text-2xl text-cyan-400 mb-3"></i>
+                <h3 class="font-bold text-white mb-2">Control Flow</h3>
+                <p class="text-gray-400 text-sm">Complete loops, conditionals, and exception handling</p>
+            </div>
+            <div class="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-cyan-500 transition duration-300">
+                <i class="fas fa-box text-2xl text-cyan-400 mb-3"></i>
+                <h3 class="font-bold text-white mb-2">Modules</h3>
+                <p class="text-gray-400 text-sm">Organize code with modular system</p>
+            </div>
+            <div class="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-cyan-500 transition duration-300">
+                <i class="fas fa-puzzle-piece text-2xl text-cyan-400 mb-3"></i>
+                <h3 class="font-bold text-white mb-2">Extensible</h3>
+                <p class="text-gray-400 text-sm">Easy to extend with custom libraries</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-24 relative z-10 border-t border-gray-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold mb-6 text-white">Ready to Get Started?</h2>
+        <p class="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">Join the Bloa community and start building amazing things today.</p>
+        <div class="flex flex-wrap gap-4 justify-center">
+            <a href="download.php" class="bg-cyan-500 text-black px-8 py-4 rounded-lg font-bold hover:bg-cyan-400 transition duration-300">
+                <i class="fas fa-download mr-2"></i>Download Now
+            </a>
+            <a href="docs.php" class="border-2 border-cyan-500 text-cyan-400 px-8 py-4 rounded-lg font-bold hover:bg-cyan-500 hover:text-black transition duration-300">
+                <i class="fas fa-book mr-2"></i>Read Docs
+            </a>
+        </div>
+    </div>
+</section>
+
+<?php include 'footer.php'; ?>
         <div class="text-center mb-16">
             <h2 class="text-4xl md:text-5xl font-bold mb-4 gradient-text">Get Started Today</h2>
             <p class="text-xl text-gray-600">Join the Bloa community and start building amazing applications</p>
