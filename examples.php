@@ -9,7 +9,7 @@
     <div class="space-y-12">
         <section class="card-hover bg-white dark:bg-gray-900 p-8 rounded-xl shadow-lg border border-gray-200 dark:border-gray-800">
             <div class="flex items-center mb-6">
-                <i class="fas fa-code text-2xl text-cyan-400 mr-3"></i>
+                <i class="fas fa-code text-2xl text-cyan-400 dark:text-cyan-300 mr-3"></i>
                 <h2 class="text-3xl font-bold text-gray-900 dark:text-white">Hello World</h2>
             </div>
             <p class="mb-6 text-gray-700 dark:text-gray-300">The classic first program to get started:</p>
@@ -18,7 +18,7 @@
 
         <section class="card-hover bg-white dark:bg-gray-900 p-8 rounded-xl shadow-lg border border-gray-200 dark:border-gray-800">
             <div class="flex items-center mb-6">
-                <i class="fas fa-sliders-h text-2xl text-cyan-400 mr-3"></i>
+                <i class="fas fa-sliders-h text-2xl text-cyan-400 dark:text-cyan-300 mr-3"></i>
                 <h2 class="text-3xl font-bold text-gray-900 dark:text-white">Variables and Expressions</h2>
             </div>
             <pre class="code bg-gray-50 dark:bg-black text-gray-900 dark:text-gray-100 p-6 rounded-lg border border-gray-200 dark:border-gray-800 overflow-x-auto"><code>x = 42
@@ -34,7 +34,7 @@ say("Is cool? " + str(is_cool))</code></pre>
 
         <section class="card-hover bg-white dark:bg-gray-900 p-8 rounded-xl shadow-lg border border-gray-200 dark:border-gray-800">
             <div class="flex items-center mb-6">
-                <i class="fas fa-function text-2xl text-cyan-400 mr-3"></i>
+                <i class="fas fa-function text-2xl text-cyan-400 dark:text-cyan-300 mr-3"></i>
                 <h2 class="text-3xl font-bold text-gray-900 dark:text-white">Functions</h2>
             </div>
             <pre class="code bg-gray-50 dark:bg-black text-gray-900 dark:text-gray-100 p-6 rounded-lg border border-gray-200 dark:border-gray-800 overflow-x-auto"><code>function factorial(n) {
@@ -57,7 +57,7 @@ greet("Alice", 25)</code></pre>
 
         <section class="card-hover bg-white dark:bg-gray-900 p-8 rounded-xl shadow-lg border border-gray-200 dark:border-gray-800">
             <div class="flex items-center mb-6">
-                <i class="fas fa-object-group text-2xl text-cyan-400 mr-3"></i>
+                <i class="fas fa-object-group text-2xl text-cyan-400 dark:text-cyan-300 mr-3"></i>
                 <h2 class="text-3xl font-bold text-gray-900 dark:text-white">Classes and Inheritance</h2>
             </div>
             <pre class="code bg-gray-50 dark:bg-black text-gray-900 dark:text-gray-100 p-6 rounded-lg border border-gray-200 dark:border-gray-800 overflow-x-auto"><code>class Shape {
@@ -92,7 +92,7 @@ say("Area: " + str(circle.area()))</code></pre>
 
         <section class="card-hover bg-white dark:bg-gray-900 p-8 rounded-xl shadow-lg border border-gray-200 dark:border-gray-800">
             <div class="flex items-center mb-6">
-                <i class="fas fa-list text-2xl text-cyan-400 mr-3"></i>
+                <i class="fas fa-list text-2xl text-cyan-400 dark:text-cyan-300 mr-3"></i>
                 <h2 class="text-3xl font-bold text-gray-900 dark:text-white">Lists and Loops</h2>
             </div>
             <pre class="code bg-gray-50 dark:bg-black text-gray-900 dark:text-gray-100 p-6 rounded-lg border border-gray-200 dark:border-gray-800 overflow-x-auto"><code># Create a list
@@ -118,7 +118,7 @@ say("Squares: " + str(squares))</code></pre>
 
         <section class="card-hover bg-white dark:bg-gray-900 p-8 rounded-xl shadow-lg border border-gray-200 dark:border-gray-800">
             <div class="flex items-center mb-6">
-                <i class="fas fa-file-alt text-2xl text-cyan-400 mr-3"></i>
+                <i class="fas fa-file-alt text-2xl text-cyan-400 dark:text-cyan-300 mr-3"></i>
                 <h2 class="text-3xl font-bold text-gray-900 dark:text-white">File I/O</h2>
             </div>
             <pre class="code bg-gray-50 dark:bg-black text-gray-900 dark:text-gray-100 p-6 rounded-lg border border-gray-200 dark:border-gray-800 overflow-x-auto"><code>import io
@@ -140,7 +140,7 @@ if io.exists("example.txt") {
 
         <section class="card-hover bg-white dark:bg-gray-900 p-8 rounded-xl shadow-lg border border-gray-200 dark:border-gray-800">
             <div class="flex items-center mb-6">
-                <i class="fas fa-calculator text-2xl text-cyan-400 mr-3"></i>
+                <i class="fas fa-calculator text-2xl text-cyan-400 dark:text-cyan-300 mr-3"></i>
                 <h2 class="text-3xl font-bold text-gray-900 dark:text-white">Math Operations</h2>
             </div>
             <pre class="code bg-gray-50 dark:bg-black text-gray-900 dark:text-gray-100 p-6 rounded-lg border border-gray-200 dark:border-gray-800 overflow-x-auto"><code>import math
@@ -164,7 +164,7 @@ say("2^8 = " + str(result))</code></pre>
 
         <section class="card-hover bg-white dark:bg-gray-900 p-8 rounded-xl shadow-lg border border-gray-200 dark:border-gray-800">
             <div class="flex items-center mb-6">
-                <i class="fas fa-exclamation-triangle text-2xl text-cyan-400 mr-3"></i>
+                <i class="fas fa-exclamation-triangle text-2xl text-cyan-400 dark:text-cyan-300 mr-3"></i>
                 <h2 class="text-3xl font-bold text-gray-900 dark:text-white">Exception Handling</h2>
             </div>
             <pre class="code bg-gray-50 dark:bg-black text-gray-900 dark:text-gray-100 p-6 rounded-lg border border-gray-200 dark:border-gray-800 overflow-x-auto"><code>function divide(a, b) {

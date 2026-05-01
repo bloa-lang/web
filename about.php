@@ -15,28 +15,28 @@
             <h3 class="text-2xl font-bold mb-6 text-white">Key Principles</h3>
             <ul class="space-y-4">
                 <li class="flex items-start">
-                    <i class="fas fa-check text-cyan-400 mr-3 mt-1 flex-shrink-0 text-xl"></i>
+                    <i class="fas fa-check text-cyan-400 dark:text-cyan-300 mr-3 mt-1 flex-shrink-0 text-xl"></i>
                     <div>
                         <strong class="text-lg text-white">Simplicity:</strong>
                         <p class="text-gray-400">Clean, readable syntax that's easy to learn</p>
                     </div>
                 </li>
                 <li class="flex items-start">
-                    <i class="fas fa-check text-cyan-400 mr-3 mt-1 flex-shrink-0 text-xl"></i>
+                    <i class="fas fa-check text-cyan-400 dark:text-cyan-300 mr-3 mt-1 flex-shrink-0 text-xl"></i>
                     <div>
                         <strong class="text-lg text-white">Power:</strong>
                         <p class="text-gray-400">Rich features including OOP, modules, and exception handling</p>
                     </div>
                 </li>
                 <li class="flex items-start">
-                    <i class="fas fa-check text-cyan-400 mr-3 mt-1 flex-shrink-0 text-xl"></i>
+                    <i class="fas fa-check text-cyan-400 dark:text-cyan-300 mr-3 mt-1 flex-shrink-0 text-xl"></i>
                     <div>
                         <strong class="text-lg text-white">Performance:</strong>
                         <p class="text-gray-400">Fast execution with a C++-based interpreter</p>
                     </div>
                 </li>
                 <li class="flex items-start">
-                    <i class="fas fa-check text-cyan-400 mr-3 mt-1 flex-shrink-0 text-xl"></i>
+                    <i class="fas fa-check text-cyan-400 dark:text-cyan-300 mr-3 mt-1 flex-shrink-0 text-xl"></i>
                     <div>
                         <strong class="text-lg text-white">Extensibility:</strong>
                         <p class="text-gray-400">Easy to extend with modules and libraries</p>
@@ -50,7 +50,7 @@
             <div class="space-y-4">
                 <div class="card-hover bg-gray-900 p-5 rounded-lg border border-gray-800 shadow-md">
                     <div class="flex items-start">
-                        <i class="fas fa-code text-blue-400 text-2xl mr-4 mt-1 flex-shrink-0"></i>
+                        <i class="fas fa-code text-blue-400 dark:text-blue-300 text-2xl mr-4 mt-1 flex-shrink-0"></i>
                         <div>
                             <h3 class="font-bold text-lg mb-1 text-white">Dynamic Typing</h3>
                             <p class="text-gray-400 text-sm">Variables can hold any type without explicit declarations.</p>
@@ -59,7 +59,7 @@
                 </div>
                 <div class="card-hover bg-gray-900 p-5 rounded-lg border border-gray-800 shadow-md">
                     <div class="flex items-start">
-                        <i class="fas fa-cogs text-green-400 text-2xl mr-4 mt-1 flex-shrink-0"></i>
+                        <i class="fas fa-cogs text-green-400 dark:text-green-300 text-2xl mr-4 mt-1 flex-shrink-0"></i>
                         <div>
                             <h3 class="font-bold text-lg mb-1 text-white">Object-Oriented Programming</h3>
                             <p class="text-gray-400 text-sm">Classes, inheritance, and polymorphism support.</p>
@@ -68,7 +68,7 @@
                 </div>
                 <div class="card-hover bg-gray-900 p-5 rounded-lg border border-gray-800 shadow-md">
                     <div class="flex items-start">
-                        <i class="fas fa-puzzle-piece text-purple-400 text-2xl mr-4 mt-1 flex-shrink-0"></i>
+                        <i class="fas fa-puzzle-piece text-purple-400 dark:text-purple-300 text-2xl mr-4 mt-1 flex-shrink-0"></i>
                         <div>
                             <h3 class="font-bold text-lg mb-1 text-white">Modular Design</h3>
                             <p class="text-gray-400 text-sm">Import and organize code with modules and files.</p>
@@ -77,7 +77,7 @@
                 </div>
                 <div class="card-hover bg-gray-900 p-5 rounded-lg border border-gray-800 shadow-md">
                     <div class="flex items-start">
-                        <i class="fas fa-shield-alt text-red-400 text-2xl mr-4 mt-1 flex-shrink-0"></i>
+                        <i class="fas fa-shield-alt text-red-400 dark:text-red-300 text-2xl mr-4 mt-1 flex-shrink-0"></i>
                         <div>
                             <h3 class="font-bold text-lg mb-1 text-white">Exception Handling</h3>
                             <p class="text-gray-400 text-sm">Robust error handling with try/except blocks.</p>
@@ -86,7 +86,7 @@
                 </div>
                 <div class="card-hover bg-gray-900 p-5 rounded-lg border border-gray-800 shadow-md">
                     <div class="flex items-start">
-                        <i class="fas fa-book text-indigo-400 text-2xl mr-4 mt-1 flex-shrink-0"></i>
+                        <i class="fas fa-book text-indigo-400 dark:text-indigo-300 text-2xl mr-4 mt-1 flex-shrink-0"></i>
                         <div>
                             <h3 class="font-bold text-lg mb-1 text-white">Rich Standard Library</h3>
                             <p class="text-gray-400 text-sm">Math, I/O, string manipulation, and more.</p>
@@ -103,17 +103,17 @@
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div class="card-hover bg-gray-900 p-8 rounded-xl shadow-lg border border-gray-800">
-                <i class="fas fa-code-branch text-3xl text-cyan-400 mb-4"></i>
+                <i class="fas fa-code-branch text-3xl text-cyan-400 dark:text-cyan-300 mb-4"></i>
                 <h3 class="text-xl font-bold mb-3 text-white">Parser</h3>
                 <p class="text-gray-400">Converts Bloa source code into an Abstract Syntax Tree (AST) for execution.</p>
             </div>
             <div class="card-hover bg-gray-900 p-8 rounded-xl shadow-lg border border-gray-800">
-                <i class="fas fa-play text-3xl text-cyan-400 mb-4"></i>
+                <i class="fas fa-play text-3xl text-cyan-400 dark:text-cyan-300 mb-4"></i>
                 <h3 class="text-xl font-bold mb-3 text-white">Interpreter</h3>
                 <p class="text-gray-400">Executes the AST, managing variables, functions, and control flow.</p>
             </div>
             <div class="card-hover bg-gray-900 p-8 rounded-xl shadow-lg border border-gray-800">
-                <i class="fas fa-database text-3xl text-cyan-400 mb-4"></i>
+                <i class="fas fa-database text-3xl text-cyan-400 dark:text-cyan-300 mb-4"></i>
                 <h3 class="text-xl font-bold mb-3 text-white">Environment</h3>
                 <p class="text-gray-400">Handles variable scoping, function definitions, and object instances.</p>
             </div>
@@ -125,13 +125,13 @@
         <p class="mb-8 text-gray-700 dark:text-gray-300 text-lg leading-relaxed">Bloa is an open-source project hosted on GitHub. We welcome contributions from the community including bug reports, feature requests, and pull requests.</p>
         <div class="flex flex-wrap gap-4">
             <a href="https://github.com/bloa-lang/bloa-src" class="bg-cyan-500 text-black px-8 py-3 rounded-lg font-bold hover:bg-cyan-400 transition duration-300" target="_blank">
-                <i class="fab fa-github mr-2"></i>View on GitHub
+                <i class="fab fa-github mr-2 text-black dark:text-black"></i>View on GitHub
             </a>
             <a href="/docs" class="border-2 border-cyan-500 text-cyan-500 dark:text-cyan-300 px-8 py-3 rounded-lg font-bold hover:bg-cyan-500 hover:text-white transition duration-300">
-                <i class="fas fa-book mr-2"></i>Read Documentation
+                <i class="fas fa-book mr-2 text-cyan-500 dark:text-cyan-300"></i>Read Documentation
             </a>
             <a href="/examples" class="border-2 border-cyan-500 text-cyan-500 dark:text-cyan-300 px-8 py-3 rounded-lg font-bold hover:bg-cyan-500 hover:text-white transition duration-300">
-                <i class="fas fa-code mr-2"></i>Try Examples
+                <i class="fas fa-code mr-2 text-cyan-500 dark:text-cyan-300"></i>Try Examples
             </a>
         </div>
     </div>

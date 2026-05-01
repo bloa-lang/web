@@ -244,7 +244,7 @@
                 <div class="flex items-center space-x-3">
                     <a href="/" class="text-2xl font-bold flex items-center space-x-2 hover:opacity-80 transition">
                         <div class="bg-gradient-to-br from-cyan-500 to-blue-500 p-2 rounded-lg">
-                            <i class="fas fa-code"></i>
+                            <i class="fas fa-code text-white"></i>
                         </div>
                         <span class="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent font-bold">Bloa</span>
                     </a>
@@ -256,12 +256,12 @@
                     <a href="/about" class="text-gray-300 hover:text-cyan-400 hover:opacity-100 transition duration-300 font-medium">About</a>
                     <a href="/download" class="text-gray-300 hover:text-cyan-400 hover:opacity-100 transition duration-300 font-medium">Download</a>
                     <a href="https://github.com/bloa-lang/bloa-src" class="bg-cyan-500 hover:bg-cyan-600 text-black px-3 py-2 rounded-lg transition duration-300 font-semibold" target="_blank">
-                        <i class="fab fa-github"></i>
+                        <i class="fab fa-github text-black"></i>
                     </a>
                 </div>
                 <div class="md:hidden flex items-center">
-                    <button id="mobile-menu-button" class="text-white focus:outline-none hover:text-cyan-400 transition">
-                        <i class="fas fa-bars text-xl"></i>
+                    <button id="mobile-menu-button" class="text-gray-900 dark:text-white focus:outline-none hover:text-cyan-400 transition">
+                        <i class="fas fa-bars text-xl text-gray-900 dark:text-white"></i>
                     </button>
                 </div>
             </div>
@@ -272,7 +272,7 @@
                 <a href="/about" class="block py-2 text-gray-300 hover:text-cyan-400 hover:bg-cyan-500 hover:bg-opacity-10 px-3 rounded transition">About</a>
                 <a href="/download" class="block py-2 hover:text-white hover:bg-white hover:bg-opacity-10 px-3 rounded transition">Download</a>
                 <a href="https://github.com/bloa-lang/bloa-src" class="block py-2 hover:text-white hover:bg-white hover:bg-opacity-10 px-3 rounded transition" target="_blank">
-                    <i class="fab fa-github mr-2"></i>GitHub
+                    <i class="fab fa-github mr-2 text-gray-900 dark:text-gray-300"></i>GitHub
                 </a>
             </div>
         </div>

@@ -76,28 +76,28 @@ say("4 * 7 = " + str(product))</code></pre>
             </div>
             <div class="space-y-6">
                 <div class="flex space-x-4">
-                    <i class="fas fa-check text-2xl text-cyan-400 flex-shrink-0 mt-1"></i>
+                    <i class="fas fa-check text-2xl text-cyan-400 dark:text-cyan-300 flex-shrink-0 mt-1"></i>
                     <div>
                         <h4 class="font-bold text-lg text-white">Clean & Readable</h4>
                         <p class="text-gray-400">Syntax that's easy to understand at first glance</p>
                     </div>
                 </div>
                 <div class="flex space-x-4">
-                    <i class="fas fa-check text-2xl text-cyan-400 flex-shrink-0 mt-1"></i>
+                    <i class="fas fa-check text-2xl text-cyan-400 dark:text-cyan-300 flex-shrink-0 mt-1"></i>
                     <div>
                         <h4 class="font-bold text-lg text-white">Object-Oriented</h4>
                         <p class="text-gray-400">Full support for classes, inheritance, and polymorphism</p>
                     </div>
                 </div>
                 <div class="flex space-x-4">
-                    <i class="fas fa-check text-2xl text-cyan-400 flex-shrink-0 mt-1"></i>
+                    <i class="fas fa-check text-2xl text-cyan-400 dark:text-cyan-300 flex-shrink-0 mt-1"></i>
                     <div>
                         <h4 class="font-bold text-lg text-white">Powerful</h4>
                         <p class="text-gray-400">Rich standard library with everything you need</p>
                     </div>
                 </div>
                 <div class="flex space-x-4">
-                    <i class="fas fa-check text-2xl text-cyan-400 flex-shrink-0 mt-1"></i>
+                    <i class="fas fa-check text-2xl text-cyan-400 dark:text-cyan-300 flex-shrink-0 mt-1"></i>
                     <div>
                         <h4 class="font-bold text-lg text-white">Performance</h4>
                         <p class="text-gray-400">Optimized C++ interpreter for fast execution</p>
@@ -116,22 +116,22 @@ say("4 * 7 = " + str(product))</code></pre>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div class="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-cyan-500 transition duration-300">
-                <i class="fas fa-list text-2xl text-cyan-400 mb-3"></i>
+                <i class="fas fa-list text-2xl text-cyan-400 dark:text-cyan-300 mb-3"></i>
                 <h3 class="font-bold text-white mb-2">Lists & Arrays</h3>
                 <p class="text-gray-400 text-sm">Native support for collections and iteration</p>
             </div>
             <div class="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-cyan-500 transition duration-300">
-                <i class="fas fa-repeat text-2xl text-cyan-400 mb-3"></i>
+                <i class="fas fa-repeat text-2xl text-cyan-400 dark:text-cyan-300 mb-3"></i>
                 <h3 class="font-bold text-white mb-2">Control Flow</h3>
                 <p class="text-gray-400 text-sm">Complete loops, conditionals, and exception handling</p>
             </div>
             <div class="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-cyan-500 transition duration-300">
-                <i class="fas fa-box text-2xl text-cyan-400 mb-3"></i>
+                <i class="fas fa-box text-2xl text-cyan-400 dark:text-cyan-300 mb-3"></i>
                 <h3 class="font-bold text-white mb-2">Modules</h3>
                 <p class="text-gray-400 text-sm">Organize code with modular system</p>
             </div>
             <div class="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-cyan-500 transition duration-300">
-                <i class="fas fa-puzzle-piece text-2xl text-cyan-400 mb-3"></i>
+                <i class="fas fa-puzzle-piece text-2xl text-cyan-400 dark:text-cyan-300 mb-3"></i>
                 <h3 class="font-bold text-white mb-2">Extensible</h3>
                 <p class="text-gray-400 text-sm">Easy to extend with custom libraries</p>
             </div>
@@ -145,10 +145,10 @@ say("4 * 7 = " + str(product))</code></pre>
         <p class="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">Join the Bloa community and start building amazing things today.</p>
         <div class="flex flex-wrap gap-4 justify-center">
             <a href="/download" class="bg-cyan-500 text-black px-8 py-4 rounded-lg font-bold hover:bg-cyan-400 transition duration-300">
-                <i class="fas fa-download mr-2"></i>Download Now
+                <i class="fas fa-download mr-2 text-black dark:text-black"></i>Download Now
             </a>
             <a href="/docs" class="border-2 border-cyan-500 text-cyan-400 px-8 py-4 rounded-lg font-bold hover:bg-cyan-500 hover:text-black transition duration-300">
-                <i class="fas fa-book mr-2"></i>Read Docs
+                <i class="fas fa-book mr-2 text-cyan-400 dark:text-cyan-300"></i>Read Docs
             </a>
         </div>
     </div>
@@ -188,7 +188,7 @@ say("4 * 7 = " + str(product))</code></pre>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div class="card-hover bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-                <h3 class="text-xl font-bold mb-6 flex items-center"><i class="fas fa-calculator text-purple-600 mr-3"></i> Math Functions</h3>
+                <h3 class="text-xl font-bold mb-6 flex items-center"><i class="fas fa-calculator text-purple-600 dark:text-purple-300 mr-3"></i> Math Functions</h3>
                 <div class="space-y-2 text-gray-600">
                     <p>• sqrt(x), pow(base, exp)</p>
                     <p>• sin(x), cos(x), tan(x)</p>
@@ -198,7 +198,7 @@ say("4 * 7 = " + str(product))</code></pre>
                 </div>
             </div>
             <div class="card-hover bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-                <h3 class="text-xl font-bold mb-6 flex items-center"><i class="fas fa-file-alt text-purple-600 mr-3"></i> File I/O</h3>
+                <h3 class="text-xl font-bold mb-6 flex items-center"><i class="fas fa-file-alt text-purple-600 dark:text-purple-300 mr-3"></i> File I/O</h3>
                 <div class="space-y-2 text-gray-600">
                     <p>• read_file(path), write_file(path, content)</p>
                     <p>• exists(path), list_dir(path)</p>
@@ -208,7 +208,7 @@ say("4 * 7 = " + str(product))</code></pre>
                 </div>
             </div>
             <div class="card-hover bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-                <h3 class="text-xl font-bold mb-6 flex items-center"><i class="fas fa-type text-purple-600 mr-3"></i> String Functions</h3>
+                <h3 class="text-xl font-bold mb-6 flex items-center"><i class="fas fa-type text-purple-600 dark:text-purple-300 mr-3"></i> String Functions</h3>
                 <div class="space-y-2 text-gray-600">
                     <p>• len(s), split(s, delim), join(list, sep)</p>
                     <p>• substr(s, start, len?), find(s, sub)</p>
@@ -218,7 +218,7 @@ say("4 * 7 = " + str(product))</code></pre>
                 </div>
             </div>
             <div class="card-hover bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-                <h3 class="text-xl font-bold mb-6 flex items-center"><i class="fas fa-wrench text-purple-600 mr-3"></i> Utilities</h3>
+                <h3 class="text-xl font-bold mb-6 flex items-center"><i class="fas fa-wrench text-purple-600 dark:text-purple-300 mr-3"></i> Utilities</h3>
                 <div class="space-y-2 text-gray-600">
                     <p>• random_int(max), random_float(max)</p>
                     <p>• now() - current timestamp</p>

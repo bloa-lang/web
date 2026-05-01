@@ -8,5 +8,9 @@
     # Extensionless routes for pages
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^(docs|examples|about|download)/?$ $1.php [L,QSA]
+    RewriteRule ^(docs|examples|about|download|403|404|500)/?$ $1.php [L,QSA]
 </IfModule>
+
+ErrorDocument 403 /403
+ErrorDocument 404 /404
+ErrorDocument 500 /500

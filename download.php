@@ -21,7 +21,7 @@ make</code></pre>
             </div>
 
             <a href="https://github.com/bloa-lang/bloa-src" class="inline-block bg-cyan-500 text-black px-8 py-4 rounded-lg font-bold hover:bg-cyan-400 hover:shadow-lg hover:shadow-cyan-500/50 transition duration-300" target="_blank">
-                <i class="fab fa-github mr-2"></i>GitHub Repository
+                <i class="fab fa-github mr-2 text-black dark:text-black"></i>GitHub Repository
             </a>
         </div>
 
@@ -32,15 +32,15 @@ make</code></pre>
             <h3 class="text-xl font-bold mb-4 text-white">System Requirements</h3>
             <ul class="space-y-3 mb-8">
                 <li class="flex items-start">
-                    <i class="fas fa-check text-cyan-400 mr-3 mt-1 flex-shrink-0 text-lg"></i>
+                    <i class="fas fa-check text-cyan-400 dark:text-cyan-300 mr-3 mt-1 flex-shrink-0 text-lg"></i>
                     <span class="text-gray-300">C++17 compatible compiler (GCC, Clang, MSVC)</span>
                 </li>
                 <li class="flex items-start">
-                    <i class="fas fa-check text-cyan-400 mr-3 mt-1 flex-shrink-0 text-lg"></i>
+                    <i class="fas fa-check text-cyan-400 dark:text-cyan-300 mr-3 mt-1 flex-shrink-0 text-lg"></i>
                     <span class="text-gray-300">CMake 3.16 or higher</span>
                 </li>
                 <li class="flex items-start">
-                    <i class="fas fa-check text-cyan-400 mr-3 mt-1 flex-shrink-0 text-lg"></i>
+                    <i class="fas fa-check text-cyan-400 dark:text-cyan-300 mr-3 mt-1 flex-shrink-0 text-lg"></i>
                     <span class="text-gray-300">Standard C++ libraries</span>
                 </li>
             </ul>
@@ -77,17 +77,17 @@ make</code></pre>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div class="card-hover bg-gray-900 p-8 rounded-xl shadow-lg border border-gray-800 text-center">
-                <i class="fab fa-ubuntu text-5xl text-orange-500 mb-4"></i>
+                <i class="fab fa-ubuntu text-5xl text-orange-500 dark:text-orange-300 mb-4"></i>
                 <h3 class="text-xl font-bold mb-2 text-white">Ubuntu/Debian</h3>
                 <p class="text-gray-400">APT packages coming soon</p>
             </div>
             <div class="card-hover bg-gray-900 p-8 rounded-xl shadow-lg border border-gray-800 text-center">
-                <i class="fab fa-apple text-5xl text-gray-300 mb-4"></i>
+                <i class="fab fa-apple text-5xl text-gray-300 dark:text-gray-200 mb-4"></i>
                 <h3 class="text-xl font-bold mb-2 text-white">macOS</h3>
                 <p class="text-gray-400">Homebrew formula coming soon</p>
             </div>
             <div class="card-hover bg-gray-900 p-8 rounded-xl shadow-lg border border-gray-800 text-center">
-                <i class="fab fa-windows text-5xl text-blue-500 mb-4"></i>
+                <i class="fab fa-windows text-5xl text-blue-500 dark:text-blue-300 mb-4"></i>
                 <h3 class="text-xl font-bold mb-2 text-white">Windows</h3>
                 <p class="text-gray-400">MSI installer coming soon</p>
             </div>
@@ -117,21 +117,21 @@ say("Sum: " + str(sum))</code></pre>
 
     <div class="bg-white/95 dark:bg-gradient-to-br dark:from-gray-900 dark:to-black p-12 rounded-xl border border-gray-200 dark:border-gray-800">
         <div class="flex items-start">
-            <i class="fas fa-lightbulb text-3xl text-cyan-400 mr-4 flex-shrink-0 mt-1"></i>
+            <i class="fas fa-lightbulb text-3xl text-cyan-400 dark:text-cyan-300 mr-4 flex-shrink-0 mt-1"></i>
             <div>
                 <h2 class="text-3xl font-bold mb-4 text-gray-900 dark:text-white">Need Help?</h2>
                 <p class="mb-6 text-gray-700 dark:text-gray-300 text-lg leading-relaxed">If you encounter any issues during installation or have questions:</p>
                 <ul class="space-y-3">
                     <li class="flex items-start">
-                        <i class="fas fa-arrow-right text-cyan-400 mr-3 mt-1 flex-shrink-0"></i>
+                    <i class="fas fa-arrow-right text-cyan-400 dark:text-cyan-300 mr-3 mt-1 flex-shrink-0"></i>
                         <span class="text-gray-700 dark:text-gray-300">Check the <a href="/docs" class="text-cyan-500 dark:text-cyan-300 font-semibold hover:text-cyan-400 transition">documentation</a> for detailed instructions</span>
                     </li>
                     <li class="flex items-start">
-                        <i class="fas fa-arrow-right text-cyan-400 mr-3 mt-1 flex-shrink-0"></i>
+                    <i class="fas fa-arrow-right text-cyan-400 dark:text-cyan-300 mr-3 mt-1 flex-shrink-0"></i>
                         <span class="text-gray-700 dark:text-gray-300">Look at the <a href="/examples" class="text-cyan-500 dark:text-cyan-300 font-semibold hover:text-cyan-400 transition">examples</a> for code samples</span>
                     </li>
                     <li class="flex items-start">
-                        <i class="fas fa-arrow-right text-cyan-400 mr-3 mt-1 flex-shrink-0"></i>
+                    <i class="fas fa-arrow-right text-cyan-400 dark:text-cyan-300 mr-3 mt-1 flex-shrink-0"></i>
                         <span class="text-gray-300">Open an issue on <a href="https://github.com/bloa-lang/bloa-src/issues" class="text-cyan-400 font-semibold hover:text-cyan-300 transition" target="_blank">GitHub</a></span>
                     </li>
                 </ul>
