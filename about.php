@@ -120,17 +120,17 @@
         </div>
     </div>
 
-    <div class="bg-gradient-to-br from-gray-900 to-black p-12 rounded-xl border border-gray-800">
-        <h2 class="text-3xl font-bold mb-8 text-white">Getting Involved</h2>
-        <p class="mb-8 text-gray-300 text-lg leading-relaxed">Bloa is an open-source project hosted on GitHub. We welcome contributions from the community including bug reports, feature requests, and pull requests.</p>
+    <div class="bg-white/90 dark:bg-gradient-to-br dark:from-gray-900 dark:to-black p-12 rounded-xl border border-gray-200 dark:border-gray-800">
+        <h2 class="text-3xl font-bold mb-8 text-gray-900 dark:text-white">Getting Involved</h2>
+        <p class="mb-8 text-gray-700 dark:text-gray-300 text-lg leading-relaxed">Bloa is an open-source project hosted on GitHub. We welcome contributions from the community including bug reports, feature requests, and pull requests.</p>
         <div class="flex flex-wrap gap-4">
             <a href="https://github.com/bloa-lang/bloa-src" class="bg-cyan-500 text-black px-8 py-3 rounded-lg font-bold hover:bg-cyan-400 transition duration-300" target="_blank">
                 <i class="fab fa-github mr-2"></i>View on GitHub
             </a>
-            <a href="docs.php" class="border-2 border-cyan-500 text-cyan-400 px-8 py-3 rounded-lg font-bold hover:bg-cyan-500 hover:text-black transition duration-300">
+            <a href="/docs" class="border-2 border-cyan-500 text-cyan-500 dark:text-cyan-300 px-8 py-3 rounded-lg font-bold hover:bg-cyan-500 hover:text-white transition duration-300">
                 <i class="fas fa-book mr-2"></i>Read Documentation
             </a>
-            <a href="examples.php" class="border-2 border-cyan-500 text-cyan-400 px-8 py-3 rounded-lg font-bold hover:bg-cyan-500 hover:text-black transition duration-300">
+            <a href="/examples" class="border-2 border-cyan-500 text-cyan-500 dark:text-cyan-300 px-8 py-3 rounded-lg font-bold hover:bg-cyan-500 hover:text-white transition duration-300">
                 <i class="fas fa-code mr-2"></i>Try Examples
             </a>
         </div>

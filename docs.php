@@ -3,23 +3,23 @@
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
     <div class="mb-12">
         <h1 class="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">Bloa Documentation</h1>
-        <p class="text-xl text-gray-400">Complete guide to the Bloa programming language</p>
+        <p class="text-xl text-gray-600 dark:text-gray-400">Complete guide to the Bloa programming language</p>
     </div>
 
     <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
         <div class="lg:col-span-1">
-            <nav class="sticky top-24 bg-gray-900 p-6 rounded-xl shadow-lg border border-gray-800">
+            <nav class="sticky top-24 bg-white dark:bg-gray-800 p-6 rounded-xl border border-gray-200 dark:border-gray-700">
                 <h3 class="text-lg font-bold mb-6 bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">Contents</h3>
                 <ul class="space-y-3">
-                    <li><a href="#syntax" class="text-cyan-400 hover:text-cyan-300 font-medium transition flex items-center"><i class="fas fa-chevron-right mr-2 text-sm"></i>Syntax</a></li>
-                    <li><a href="#variables" class="text-cyan-400 hover:text-cyan-300 font-medium transition flex items-center"><i class="fas fa-chevron-right mr-2 text-sm"></i>Variables</a></li>
-                    <li><a href="#operators" class="text-cyan-400 hover:text-cyan-300 font-medium transition flex items-center"><i class="fas fa-chevron-right mr-2 text-sm"></i>Operators</a></li>
-                    <li><a href="#control-flow" class="text-cyan-400 hover:text-cyan-300 font-medium transition flex items-center"><i class="fas fa-chevron-right mr-2 text-sm"></i>Control Flow</a></li>
-                    <li><a href="#functions" class="text-cyan-400 hover:text-cyan-300 font-medium transition flex items-center"><i class="fas fa-chevron-right mr-2 text-sm"></i>Functions</a></li>
-                    <li><a href="#classes" class="text-cyan-400 hover:text-cyan-300 font-medium transition flex items-center"><i class="fas fa-chevron-right mr-2 text-sm"></i>Classes</a></li>
-                    <li><a href="#modules" class="text-cyan-400 hover:text-cyan-300 font-medium transition flex items-center"><i class="fas fa-chevron-right mr-2 text-sm"></i>Modules</a></li>
-                    <li><a href="#built-ins" class="text-cyan-400 hover:text-cyan-300 font-medium transition flex items-center"><i class="fas fa-chevron-right mr-2 text-sm"></i>Built-in Functions</a></li>
-                    <li><a href="#stdlib" class="text-cyan-400 hover:text-cyan-300 font-medium transition flex items-center"><i class="fas fa-chevron-right mr-2 text-sm"></i>Standard Library</a></li>
+                    <li><a href="#syntax" class="text-cyan-600 dark:text-cyan-400 hover:text-cyan-700 dark:hover:text-cyan-300 font-medium transition flex items-center"><i class="fas fa-chevron-right mr-2 text-sm"></i>Syntax</a></li>
+                    <li><a href="#variables" class="text-cyan-600 dark:text-cyan-400 hover:text-cyan-700 dark:hover:text-cyan-300 font-medium transition flex items-center"><i class="fas fa-chevron-right mr-2 text-sm"></i>Variables</a></li>
+                    <li><a href="#operators" class="text-cyan-600 dark:text-cyan-400 hover:text-cyan-700 dark:hover:text-cyan-300 font-medium transition flex items-center"><i class="fas fa-chevron-right mr-2 text-sm"></i>Operators</a></li>
+                    <li><a href="#control-flow" class="text-cyan-600 dark:text-cyan-400 hover:text-cyan-700 dark:hover:text-cyan-300 font-medium transition flex items-center"><i class="fas fa-chevron-right mr-2 text-sm"></i>Control Flow</a></li>
+                    <li><a href="#functions" class="text-cyan-600 dark:text-cyan-400 hover:text-cyan-700 dark:hover:text-cyan-300 font-medium transition flex items-center"><i class="fas fa-chevron-right mr-2 text-sm"></i>Functions</a></li>
+                    <li><a href="#classes" class="text-cyan-600 dark:text-cyan-400 hover:text-cyan-700 dark:hover:text-cyan-300 font-medium transition flex items-center"><i class="fas fa-chevron-right mr-2 text-sm"></i>Classes</a></li>
+                    <li><a href="#modules" class="text-cyan-600 dark:text-cyan-400 hover:text-cyan-700 dark:hover:text-cyan-300 font-medium transition flex items-center"><i class="fas fa-chevron-right mr-2 text-sm"></i>Modules</a></li>
+                    <li><a href="#built-ins" class="text-cyan-600 dark:text-cyan-400 hover:text-cyan-700 dark:hover:text-cyan-300 font-medium transition flex items-center"><i class="fas fa-chevron-right mr-2 text-sm"></i>Built-in Functions</a></li>
+                    <li><a href="#stdlib" class="text-cyan-600 dark:text-cyan-400 hover:text-cyan-700 dark:hover:text-cyan-300 font-medium transition flex items-center"><i class="fas fa-chevron-right mr-2 text-sm"></i>Standard Library</a></li>
                 </ul>
             </nav>
         </div>
@@ -27,21 +27,21 @@
         <div class="lg:col-span-3 space-y-12">
             <section id="syntax" class="scroll-mt-24">
                 <div class="border-l-4 border-cyan-500 pl-6">
-                    <h2 class="text-3xl font-bold mb-4 text-white">Syntax</h2>
+                    <h2 class="text-3xl font-bold mb-4 text-gray-900 dark:text-white">Syntax</h2>
                 </div>
-                <p class="mb-4 text-gray-300">Bloa uses a clean, readable syntax inspired by modern programming languages. Statements end with newlines, and blocks are enclosed in curly braces <code class="code bg-gray-900 px-2 py-1 rounded text-cyan-400">{}</code>.</p>
-                <div class="bg-gray-900 p-4 rounded-lg border border-gray-800">
-                    <p class="text-gray-300 text-sm"><strong class="text-cyan-400"># Comments start with hash</strong></p>
-                    <p class="text-gray-300 text-sm"><strong class="text-cyan-400">say("Hello, World!")</strong> # Print to console</p>
+                <p class="mb-4 text-gray-700 dark:text-gray-300">Bloa uses a clean, readable syntax inspired by modern programming languages. Statements end with newlines, and blocks are enclosed in curly braces <code class="code bg-gray-100 dark:bg-gray-900 px-2 py-1 rounded text-cyan-600 dark:text-cyan-400">{}</code>.</p>
+                <div class="bg-gray-50 dark:bg-gray-900 p-4 rounded-lg border border-gray-200 dark:border-gray-800">
+                    <p class="text-gray-700 dark:text-gray-300 text-sm"><strong class="text-cyan-600 dark:text-cyan-400"># Comments start with hash</strong></p>
+                    <p class="text-gray-700 dark:text-gray-300 text-sm"><strong class="text-cyan-600 dark:text-cyan-400">say("Hello, World!")</strong> # Print to console</p>
                 </div>
             </section>
 
             <section id="variables" class="scroll-mt-24">
                 <div class="border-l-4 border-cyan-500 pl-6">
-                    <h2 class="text-3xl font-bold mb-4 text-white">Variables</h2>
+                    <h2 class="text-3xl font-bold mb-4 text-gray-900 dark:text-white">Variables</h2>
                 </div>
-                <p class="mb-4 text-gray-300">Variables are dynamically typed and declared using the assignment operator <code class="code bg-gray-900 px-2 py-1 rounded text-cyan-400">=</code>.</p>
-                <pre class="code bg-black text-gray-100 p-6 rounded-lg border border-gray-800 overflow-x-auto"><code>x = 42
+                <p class="mb-4 text-gray-700 dark:text-gray-300">Variables are dynamically typed and declared using the assignment operator <code class="code bg-gray-100 dark:bg-gray-900 px-2 py-1 rounded text-cyan-600 dark:text-cyan-400">=</code>.</p>
+                <pre class="code bg-gray-50 dark:bg-black text-gray-900 dark:text-gray-100 p-6 rounded-lg border border-gray-200 dark:border-gray-800 overflow-x-auto"><code>x = 42
 name = "Bloa"
 is_active = true
 list = [1, 2, 3]

@@ -115,20 +115,20 @@ say("Sum: " + str(sum))</code></pre>
         </div>
     </div>
 
-    <div class="bg-gradient-to-br from-gray-900 to-black p-12 rounded-xl border border-gray-800">
+    <div class="bg-white/95 dark:bg-gradient-to-br dark:from-gray-900 dark:to-black p-12 rounded-xl border border-gray-200 dark:border-gray-800">
         <div class="flex items-start">
             <i class="fas fa-lightbulb text-3xl text-cyan-400 mr-4 flex-shrink-0 mt-1"></i>
             <div>
-                <h2 class="text-3xl font-bold mb-4 text-white">Need Help?</h2>
-                <p class="mb-6 text-gray-300 text-lg leading-relaxed">If you encounter any issues during installation or have questions:</p>
+                <h2 class="text-3xl font-bold mb-4 text-gray-900 dark:text-white">Need Help?</h2>
+                <p class="mb-6 text-gray-700 dark:text-gray-300 text-lg leading-relaxed">If you encounter any issues during installation or have questions:</p>
                 <ul class="space-y-3">
                     <li class="flex items-start">
                         <i class="fas fa-arrow-right text-cyan-400 mr-3 mt-1 flex-shrink-0"></i>
-                        <span class="text-gray-300">Check the <a href="docs.php" class="text-cyan-400 font-semibold hover:text-cyan-300 transition">documentation</a> for detailed instructions</span>
+                        <span class="text-gray-700 dark:text-gray-300">Check the <a href="/docs" class="text-cyan-500 dark:text-cyan-300 font-semibold hover:text-cyan-400 transition">documentation</a> for detailed instructions</span>
                     </li>
                     <li class="flex items-start">
                         <i class="fas fa-arrow-right text-cyan-400 mr-3 mt-1 flex-shrink-0"></i>
-                        <span class="text-gray-300">Look at the <a href="examples.php" class="text-cyan-400 font-semibold hover:text-cyan-300 transition">examples</a> for code samples</span>
+                        <span class="text-gray-700 dark:text-gray-300">Look at the <a href="/examples" class="text-cyan-500 dark:text-cyan-300 font-semibold hover:text-cyan-400 transition">examples</a> for code samples</span>
                     </li>
                     <li class="flex items-start">
                         <i class="fas fa-arrow-right text-cyan-400 mr-3 mt-1 flex-shrink-0"></i>

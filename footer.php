@@ -1,4 +1,4 @@
-    <footer class="bg-black border-t border-gray-800 text-white py-16 mt-20">
+    <footer class="bg-white/80 dark:bg-gray-900/80 border-t border-gray-200 dark:border-gray-700 text-gray-900 dark:text-white py-16 mt-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
                 <div>
@@ -6,23 +6,23 @@
                         <i class="fas fa-code text-2xl text-cyan-400"></i>
                         <h3 class="text-xl font-bold text-white">Bloa</h3>
                     </div>
-                    <p class="text-gray-400 text-sm leading-relaxed">A minimalist scripting language designed for simplicity, readability, and powerful performance.</p>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">A minimalist scripting language designed for simplicity, readability, and powerful performance.</p>
                 </div>
                 <div>
                     <h3 class="text-lg font-semibold mb-4 text-white">Resources</h3>
                     <ul class="space-y-2.5">
-                        <li><a href="docs.php" class="text-gray-400 hover:text-cyan-400 transition duration-300">Documentation</a></li>
-                        <li><a href="examples.php" class="text-gray-400 hover:text-cyan-400 transition duration-300">Examples</a></li>
-                        <li><a href="download.php" class="text-gray-400 hover:text-cyan-400 transition duration-300">Download</a></li>
-                        <li><a href="about.php" class="text-gray-400 hover:text-cyan-400 transition duration-300">About</a></li>
+                        <li><a href="/docs" class="text-gray-600 dark:text-gray-400 hover:text-cyan-600 dark:hover:text-cyan-400 transition duration-300">Documentation</a></li>
+                        <li><a href="/examples" class="text-gray-600 dark:text-gray-400 hover:text-cyan-600 dark:hover:text-cyan-400 transition duration-300">Examples</a></li>
+                        <li><a href="/download" class="text-gray-600 dark:text-gray-400 hover:text-cyan-600 dark:hover:text-cyan-400 transition duration-300">Download</a></li>
+                        <li><a href="/about" class="text-gray-600 dark:text-gray-400 hover:text-cyan-600 dark:hover:text-cyan-400 transition duration-300">About</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3 class="text-lg font-semibold mb-4 text-white">Community</h3>
                     <ul class="space-y-2.5">
-                        <li><a href="https://github.com/bloa-lang/bloa-src" class="text-gray-400 hover:text-cyan-400 transition duration-300">GitHub</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-cyan-400 transition duration-300">Discord</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-cyan-400 transition duration-300">Issues & Discussions</a></li>
+                        <li><a href="https://github.com/bloa-lang/bloa-src" class="text-gray-600 dark:text-gray-400 hover:text-cyan-600 dark:hover:text-cyan-400 transition duration-300">GitHub</a></li>
+                        <li><a href="#" class="text-gray-600 dark:text-gray-400 hover:text-cyan-600 dark:hover:text-cyan-400 transition duration-300">Discord</a></li>
+                        <li><a href="#" class="text-gray-600 dark:text-gray-400 hover:text-cyan-600 dark:hover:text-cyan-400 transition duration-300">Issues & Discussions</a></li>
                     </ul>
                 </div>
                 <div>
@@ -35,7 +35,7 @@
                 </div>
             </div>
             <div class="border-t border-gray-800 pt-8 text-center">
-                <p class="text-gray-500 text-sm">&copy; <?php echo date('Y'); ?> Bloa Language. All rights reserved. | <a href="#" class="text-gray-400 hover:text-cyan-400 transition">Privacy</a> | <a href="#" class="text-gray-400 hover:text-cyan-400 transition">Terms</a></p>
+                <p class="text-gray-500 dark:text-gray-500 text-sm">&copy; <?php echo date('Y'); ?> Bloa Language. All rights reserved. | <a href="#" class="text-gray-600 dark:text-gray-400 hover:text-cyan-600 dark:hover:text-cyan-400 transition">Privacy</a> | <a href="#" class="text-gray-600 dark:text-gray-400 hover:text-cyan-600 dark:hover:text-cyan-400 transition">Terms</a></p>
             </div>
         </div>
     </footer>

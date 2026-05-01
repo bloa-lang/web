@@ -1,17 +1,12 @@
 <?php $title = 'Home - Bloa Programming Language'; include 'header.php'; ?>
 
-<section class="relative min-h-screen flex items-center justify-center overflow-hidden">
-    <div class="absolute inset-0 opacity-20">
-        <div class="absolute top-0 left-10 w-80 h-80 bg-cyan-500 rounded-full mix-blend-multiply filter blur-3xl"></div>
-        <div class="absolute top-0 right-10 w-80 h-80 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl animation-delay-2000"></div>
-        <div class="absolute bottom-0 left-1/2 w-80 h-80 bg-indigo-500 rounded-full mix-blend-multiply filter blur-3xl animation-delay-4000"></div>
-    </div>
+<section class="relative min-h-screen flex items-center justify-center">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 py-32">
-        <h1 class="text-6xl md:text-7xl font-bold mb-8 leading-tight text-white">Welcome to <span class="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">Bloa</span></h1>
-        <p class="text-xl md:text-2xl mb-10 text-gray-400 max-w-3xl mx-auto leading-relaxed">A minimalist scripting language designed for simplicity, readability, and powerful performance. Write more with less code.</p>
+        <h1 class="text-6xl md:text-7xl font-bold mb-8 leading-tight text-gray-900 dark:text-white">Welcome to <span class="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">Bloa</span></h1>
+        <p class="text-xl md:text-2xl mb-10 text-gray-600 dark:text-gray-400 max-w-3xl mx-auto leading-relaxed">A minimalist scripting language designed for simplicity, readability, and powerful performance. Write more with less code.</p>
         <div class="flex flex-wrap gap-4 justify-center mb-16">
-            <a href="docs.php" class="bg-cyan-500 text-black px-8 py-4 rounded-lg font-bold hover:bg-cyan-400 hover:shadow-2xl hover:shadow-cyan-500/50 hover:scale-105 transition transform duration-300">Get Started</a>
-            <a href="examples.php" class="border-2 border-cyan-500 text-cyan-400 px-8 py-4 rounded-lg font-bold hover:bg-cyan-500 hover:text-black transition duration-300">View Examples</a>
+            <a href="/docs" class="bg-cyan-500 text-black px-8 py-4 rounded-lg font-bold hover:bg-cyan-400 hover:shadow-2xl hover:shadow-cyan-500/50 hover:scale-105 transition transform duration-300">Get Started</a>
+            <a href="/examples" class="border-2 border-cyan-500 text-cyan-400 px-8 py-4 rounded-lg font-bold hover:bg-cyan-500 hover:text-black transition duration-300">View Examples</a>
             <a href="https://github.com/bloa-lang/bloa-src" target="_blank" class="bg-gray-800 hover:bg-gray-700 text-white px-8 py-4 rounded-lg font-bold transition duration-300 border border-gray-700">
                 <i class="fab fa-github mr-2"></i>GitHub
             </a>
@@ -22,30 +17,30 @@
 <section class="py-24 relative z-10">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-20">
-            <h2 class="text-4xl md:text-5xl font-bold mb-4 text-white">Why Choose Bloa?</h2>
-            <p class="text-xl text-gray-400 max-w-2xl mx-auto">Experience the perfect balance of simplicity and power</p>
+            <h2 class="text-4xl md:text-5xl font-bold mb-4 text-gray-900 dark:text-white">Why Choose Bloa?</h2>
+            <p class="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">Experience the perfect balance of simplicity and power</p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="card-hover bg-gray-900 p-8 rounded-xl shadow-lg border border-gray-800">
+            <div class="card-hover bg-white dark:bg-gray-800 p-8 rounded-xl border border-gray-200 dark:border-gray-700">
                 <div class="w-16 h-16 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-lg flex items-center justify-center mb-6">
                     <i class="fas fa-code text-2xl text-white"></i>
                 </div>
-                <h3 class="text-xl font-bold mb-3 text-white">Simple Syntax</h3>
-                <p class="text-gray-400 leading-relaxed">Easy to learn and read, perfect for beginners and experts alike. Write more with less code.</p>
+                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">Simple Syntax</h3>
+                <p class="text-gray-600 dark:text-gray-400 leading-relaxed">Easy to learn and read, perfect for beginners and experts alike. Write more with less code.</p>
             </div>
-            <div class="card-hover bg-gray-900 p-8 rounded-xl shadow-lg border border-gray-800">
+            <div class="card-hover bg-white dark:bg-gray-800 p-8 rounded-xl border border-gray-200 dark:border-gray-700">
                 <div class="w-16 h-16 bg-gradient-to-br from-emerald-500 to-cyan-500 rounded-lg flex items-center justify-center mb-6">
                     <i class="fas fa-rocket text-2xl text-white"></i>
                 </div>
-                <h3 class="text-xl font-bold mb-3 text-white">Fast Execution</h3>
-                <p class="text-gray-400 leading-relaxed">Built with performance in mind, executes scripts quickly and efficiently with minimal overhead.</p>
+                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">Fast Execution</h3>
+                <p class="text-gray-600 dark:text-gray-400 leading-relaxed">Built with performance in mind, executes scripts quickly and efficiently with minimal overhead.</p>
             </div>
-            <div class="card-hover bg-gray-900 p-8 rounded-xl shadow-lg border border-gray-800">
+            <div class="card-hover bg-white dark:bg-gray-800 p-8 rounded-xl border border-gray-200 dark:border-gray-700">
                 <div class="w-16 h-16 bg-gradient-to-br from-indigo-500 to-blue-500 rounded-lg flex items-center justify-center mb-6">
                     <i class="fas fa-tools text-2xl text-white"></i>
                 </div>
-                <h3 class="text-xl font-bold mb-3 text-white">Rich Features</h3>
-                <p class="text-gray-400 leading-relaxed">Supports functions, classes, modules, and a comprehensive standard library for real-world applications.</p>
+                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">Rich Features</h3>
+                <p class="text-gray-600 dark:text-gray-400 leading-relaxed">Supports functions, classes, modules, and a comprehensive standard library for real-world applications.</p>
             </div>
         </div>
     </div>
@@ -149,17 +144,15 @@ say("4 * 7 = " + str(product))</code></pre>
         <h2 class="text-4xl md:text-5xl font-bold mb-6 text-white">Ready to Get Started?</h2>
         <p class="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">Join the Bloa community and start building amazing things today.</p>
         <div class="flex flex-wrap gap-4 justify-center">
-            <a href="download.php" class="bg-cyan-500 text-black px-8 py-4 rounded-lg font-bold hover:bg-cyan-400 transition duration-300">
+            <a href="/download" class="bg-cyan-500 text-black px-8 py-4 rounded-lg font-bold hover:bg-cyan-400 transition duration-300">
                 <i class="fas fa-download mr-2"></i>Download Now
             </a>
-            <a href="docs.php" class="border-2 border-cyan-500 text-cyan-400 px-8 py-4 rounded-lg font-bold hover:bg-cyan-500 hover:text-black transition duration-300">
+            <a href="/docs" class="border-2 border-cyan-500 text-cyan-400 px-8 py-4 rounded-lg font-bold hover:bg-cyan-500 hover:text-black transition duration-300">
                 <i class="fas fa-book mr-2"></i>Read Docs
             </a>
         </div>
     </div>
 </section>
-
-<?php include 'footer.php'; ?>
         <div class="text-center mb-16">
             <h2 class="text-4xl md:text-5xl font-bold mb-4 gradient-text">Get Started Today</h2>
             <p class="text-xl text-gray-600">Join the Bloa community and start building amazing applications</p>
@@ -169,13 +162,13 @@ say("4 * 7 = " + str(product))</code></pre>
                 <div class="text-5xl font-bold gradient-text mb-4">01</div>
                 <h3 class="text-xl font-bold mb-3">Learn</h3>
                 <p class="text-gray-600 mb-4">Read our comprehensive documentation and explore examples</p>
-                <a href="docs.php" class="inline-block text-purple-600 font-semibold hover:text-purple-700">Start Learning →</a>
+                <a href="/docs" class="inline-block text-purple-600 font-semibold hover:text-purple-700">Start Learning →</a>
             </div>
             <div class="text-center">
                 <div class="text-5xl font-bold gradient-text mb-4">02</div>
                 <h3 class="text-xl font-bold mb-3">Code</h3>
                 <p class="text-gray-600 mb-4">Write your first Bloa program and experiment with the language</p>
-                <a href="examples.php" class="inline-block text-purple-600 font-semibold hover:text-purple-700">View Examples →</a>
+                <a href="/examples" class="inline-block text-purple-600 font-semibold hover:text-purple-700">View Examples →</a>
             </div>
             <div class="text-center">
                 <div class="text-5xl font-bold gradient-text mb-4">03</div>
@@ -244,8 +237,8 @@ say("4 * 7 = " + str(product))</code></pre>
             <h2 class="text-4xl md:text-5xl font-bold mb-4 gradient-text">Ready to Start?</h2>
             <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">Join thousands of developers using Bloa to build fast, beautiful applications</p>
             <div class="flex flex-wrap gap-4 justify-center">
-                <a href="download.php" class="bg-gradient-primary text-white px-8 py-4 rounded-lg font-bold hover:shadow-2xl transition duration-300">Download Now</a>
-                <a href="docs.php" class="border-2 border-purple-600 text-purple-600 px-8 py-4 rounded-lg font-bold hover:bg-purple-50 transition duration-300">Read Documentation</a>
+                <a href="/download" class="bg-gradient-primary text-white px-8 py-4 rounded-lg font-bold hover:shadow-2xl transition duration-300">Download Now</a>
+                <a href="/docs" class="border-2 border-purple-600 text-purple-600 px-8 py-4 rounded-lg font-bold hover:bg-purple-50 transition duration-300">Read Documentation</a>
             </div>
         </div>
     </div>
