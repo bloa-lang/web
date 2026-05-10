@@ -6,6 +6,7 @@
     <title><?php echo $title ?? 'Bloa Programming Language'; ?></title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="/img/favicon.png">
     <style>
         :root {
             color-scheme: light;
@@ -243,10 +244,7 @@
             <div class="flex justify-between items-center h-16">
                 <div class="flex items-center space-x-3">
                     <a href="/" class="text-2xl font-bold flex items-center space-x-2 hover:opacity-80 transition">
-                        <div class="bg-gradient-to-br from-cyan-500 to-blue-500 p-2 rounded-lg">
-                            <i class="fas fa-code text-white"></i>
-                        </div>
-                        <span class="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent font-bold">Bloa</span>
+                        <img src="/img/icon.png">
                     </a>
                 </div>
                 <div class="hidden md:flex items-center space-x-8">
