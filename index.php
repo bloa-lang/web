@@ -5,7 +5,7 @@
         <h1 class="text-6xl md:text-7xl font-bold mb-8 leading-tight text-gray-900 dark:text-white">Welcome to <span class="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">Bloa</span></h1>
         <p class="text-xl md:text-2xl mb-10 text-gray-600 dark:text-gray-400 max-w-3xl mx-auto leading-relaxed">A minimalist scripting language designed for simplicity, readability, and powerful performance. Write more with less code.</p>
         <div class="flex flex-wrap gap-4 justify-center mb-16">
-            <a href="/docs" class="bg-cyan-500 text-black px-8 py-4 rounded-lg font-bold hover:bg-cyan-400 hover:shadow-2xl hover:shadow-cyan-500/50 hover:scale-105 transition transform duration-300">Get Started</a>
+            <a href="/docs" class="bg-cyan-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-cyan-400 hover:shadow-2xl hover:shadow-cyan-500/50 hover:scale-105 transition transform duration-300">Get Started</a>
             <a href="/examples" class="border-2 border-cyan-500 text-cyan-400 px-8 py-4 rounded-lg font-bold hover:bg-cyan-500 hover:text-black transition duration-300">View Examples</a>
             <a href="https://github.com/bloa-lang/bloa-src" target="_blank" class="bg-gray-800 hover:bg-gray-700 text-white px-8 py-4 rounded-lg font-bold transition duration-300 border border-gray-700">
                 <i class="fab fa-github mr-2"></i>GitHub
