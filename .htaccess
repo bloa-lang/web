@@ -1,16 +1,87 @@
+# Enable mod_rewrite
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteBase /
 
-    # Root should serve index.php
-    RewriteRule ^$ index.php [L]
+    # Serve root from src/index.php
+    RewriteRule ^$ src/index.php [L]
 
-    # Extensionless routes for pages
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^(docs|examples|about|download|403|404|500)/?$ $1.php [L,QSA]
+    # Redirect trailing slashes (except root)
+    RewriteRule ^(.+)/$ /$1 [R=301,L]
+
+    # Serve direct files if they exist
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # Route clean URLs to src/<page>.php
+    RewriteRule ^([A-Za-z0-9_/-]+)$ src/$1.php [L,QSA]
 </IfModule>
 
-ErrorDocument 403 /403
-ErrorDocument 404 /404
-ErrorDocument 500 /500
+# Set error pages
+ErrorDocument 403 /src/403.php
+ErrorDocument 404 /src/404.php
+ErrorDocument 500 /src/500.php
+
+# Security headers
+<IfModule mod_headers.c>
+    # Prevent MIME sniffing
+    Header set X-Content-Type-Options "nosniff"
+    
+    # Enable XSS protection
+    Header set X-XSS-Protection "1; mode=block"
+    
+    # Prevent clickjacking
+    Header set X-Frame-Options "SAMEORIGIN"
+    
+    # Content Security Policy
+    Header set Content-Security-Policy "default-src 'self' https:; script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https:;"
+    
+    # Referrer Policy
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# Compression
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
+</IfModule>
+
+# Caching
+<IfModule mod_expires.c>
+    ExpiresActive On
+    
+    # Images
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    
+    # CSS & JavaScript
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType text/javascript "access plus 1 month"
+    
+    # Fonts
+    ExpiresByType font/ttf "access plus 1 year"
+    ExpiresByType font/woff "access plus 1 year"
+    ExpiresByType font/woff2 "access plus 1 year"
+    ExpiresByType application/vnd.ms-fontobject "access plus 1 year"
+    
+    # Default
+    ExpiresDefault "access plus 2 days"
+</IfModule>
+
+# Disable directory listing
+<IfModule mod_autoindex.c>
+    Options -Indexes
+</IfModule>
+
+# Prevent access to sensitive files
+<FilesMatch "^\.">
+    Deny from all
+</FilesMatch>
+
+<FilesMatch "\.(?:env|config|password)$">
+    Deny from all
+</FilesMatch>

@@ -1,0 +1,79 @@
+version: '3.8'
+
+services:
+  # PHP-FPM Service
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: bloa-web-php
+    restart: unless-stopped
+    working_dir: /var/www/html
+    volumes:
+      - ./:/var/www/html
+      - ./php.ini:/usr/local/etc/php/conf.d/custom.ini
+    networks:
+      - bloa-network
+    environment:
+      - APP_ENV=production
+      - APP_DEBUG=false
+
+  # Nginx Web Server
+  nginx:
+    image: nginx:alpine
+    container_name: bloa-web-nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./:/var/www/html
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./ssl:/etc/nginx/ssl:ro
+    depends_on:
+      - php
+    networks:
+      - bloa-network
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # MySQL Database (Optional)
+  mysql:
+    image: mysql:8.0
+    container_name: bloa-web-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: bloa_db
+      MYSQL_USER: bloa_user
+      MYSQL_PASSWORD: bloa_password
+    volumes:
+      - mysql-data:/var/lib/mysql
+    networks:
+      - bloa-network
+    ports:
+      - "3306:3306"
+
+  # Redis Cache (Optional)
+  redis:
+    image: redis:alpine
+    container_name: bloa-web-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    networks:
+      - bloa-network
+    volumes:
+      - redis-data:/data
+
+networks:
+  bloa-network:
+    driver: bridge
+
+volumes:
+  mysql-data:
+  redis-data:

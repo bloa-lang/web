@@ -1,0 +1,62 @@
+# Logs
+logs
+storage/logs
+*.log
+
+# Dependencies
+vendor/
+node_modules/
+composer.lock
+package-lock.json
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary
+tmp/
+temp/
+cache/
+*.tmp
+
+# Build artifacts
+dist/
+build/
+*.bak
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# OS
+.DS_Store
+Thumbs.db
+.gitkeep
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Test coverage
+coverage/
+.coverage
+
+# Sensitive files
+*.pem
+*.key
+*.cert
+ssl/
+
+# NPM
+npm-debug.log
+yarn-error.log
